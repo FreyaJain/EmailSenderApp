@@ -1,10 +1,9 @@
-**Email Automation Tool**
+**<h1>Email Automation Tool</h1>**
 
 Overview
 The Email Automation Tool is a powerful and user-friendly application designed to simplify email communication and scheduling. With features like personalized email generation, Google Sheets integration, CSV uploads, and real-time analytics, this tool is perfect for businesses and individuals looking to streamline their email outreach efforts.
 
-**Features**
-
+**<h2>Features</h2>** <br>
 **1. Compose Emails**
 Manual Email Composition:
 Upload data from a CSV file or a Google Sheet.
@@ -33,7 +32,7 @@ Custom CSS for a sleek and professional interface.
 Sidebar navigation for seamless interaction with different functionalities.
 
 
-**How to Use**
+**<h2>How to Use</h2>** <br>
 Step 1: Installation
 Clone the repository and install the required Python packages:
 git clone <repository-url>
@@ -48,7 +47,7 @@ Step 3: Run the App
 Run the application using Streamlit:
 streamlit run app.py
 
-**File Structure**
+**<h2>File Structure</h2>**
 
 email-automation-tool/
 ├── app.py                # Main application script <br>
@@ -59,7 +58,7 @@ email-automation-tool/
 ├── README.md             # Project documentation <br>
 ├── emails.db             # SQLite database for email scheduling <br>
 
-**Dependencies/Python Libraries**:
+**<h2>Dependencies/Python Libraries</h2>**:
 os
 pandas
 streamlit
