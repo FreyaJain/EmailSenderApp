@@ -4,6 +4,7 @@ Overview
 The Email Automation Tool is a powerful and user-friendly application designed to simplify email communication and scheduling. With features like personalized email generation, Google Sheets integration, CSV uploads, and real-time analytics, this tool is perfect for businesses and individuals looking to streamline their email outreach efforts.
 
 **Features**
+
 **1. Compose Emails**
 Manual Email Composition:
 Upload data from a CSV file or a Google Sheet.
@@ -50,13 +51,13 @@ streamlit run app.py
 **File Structure**
 
 email-automation-tool/
-├── app.py                # Main application script
-├── database.py           # Database helper functions
-├── requirements.txt      # Python dependencies
-├── token.json            # OAuth token file (generated after authentication)
-├── credentials.json      # Google API credentials
-├── README.md             # Project documentation
-├── emails.db             # SQLite database for email scheduling
+├── app.py                # Main application script <br>
+├── database.py           # Database helper functions <br>
+├── requirements.txt      # Python dependencies <br>
+├── token.json            # OAuth token file (generated after authentication) <br>
+├── credentials.json      # Google API credentials <br>
+├── README.md             # Project documentation <br>
+├── emails.db             # SQLite database for email scheduling <br>
 
 **Dependencies/Python Libraries**:
 os
